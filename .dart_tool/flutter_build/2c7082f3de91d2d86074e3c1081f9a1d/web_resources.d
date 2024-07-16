@@ -1,0 +1,1 @@
+ docs/favicon.png docs/icons/Icon-192.png docs/icons/Icon-512.png:  /Users/sl/Projects/ffa-test-url-params/web/index.html /Users/sl/Projects/ffa-test-url-params/web/favicon.png /Users/sl/Projects/ffa-test-url-params/web/icons/Icon-192.png /Users/sl/Projects/ffa-test-url-params/web/icons/Icon-512.png

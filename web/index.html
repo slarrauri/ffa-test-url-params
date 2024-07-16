@@ -48,10 +48,10 @@
   <link rel="manifest" href="manifest.json">
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = null;
+    var serviceWorkerVersion = 3136276388;
   </script>
   <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
+  <script src="https://storage.googleapis.com/flutterflow-prod-hosting/builds/kolDKiWdYhWLthfPR4BT/flutter.js" defer></script>
   
 </head>
 <body>
@@ -61,22 +61,25 @@
   
   
   <script>
-    window.addEventListener('load', function (ev) {
+
+window.addEventListener('load', function (ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
-        entrypointUrl: 'main.dart.js',
+        entrypointUrl: 'https://storage.googleapis.com/flutterflow-prod-hosting/builds/kolDKiWdYhWLthfPR4BT/main.dart.js',
         serviceWorker: {
-          serviceWorkerUrl: 'flutter_service_worker.js?v=',
+          serviceWorkerUrl: 'flutter_service_worker.js?v=kolDKiWdYhWLthfPR4BT',
           serviceWorkerVersion: serviceWorkerVersion,
         },
         onEntrypointLoaded: async function(engineInitializer) {
           // Initialize the Flutter engine
-          let appRunner = await engineInitializer.initializeEngine({});
+          let appRunner = await engineInitializer.initializeEngine({
+'assetBase': 'https://storage.googleapis.com/flutterflow-prod-hosting/builds/kolDKiWdYhWLthfPR4BT/',});
           // Run the app
           await appRunner.runApp();
         }
       });
     });
+  
   </script>
 </body>
 </html>
